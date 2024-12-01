@@ -1,0 +1,58 @@
+.container {
+
+    position: relative;
+    top: 5vw;
+    left: 41vw;
+
+}
+
+.container {
+
+    box-sizing: border-box;
+    border: 3px solid plum;
+    width: 20vw;
+    height: 40vw;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.container h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+
+}
+
+
+
+ .container input , button {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+    margin-right: 2.5vw;
+
+ }
+
+ .container button {
+
+    margin-bottom: 2vw;
+
+ }
+
+ .container .name , .email , .tel , .password , .re-password , button{
+
+    box-sizing: border-box;
+    border: 3px solid plum;
+    width: 15vw;
+    height: 3vw;
+    font-size: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
